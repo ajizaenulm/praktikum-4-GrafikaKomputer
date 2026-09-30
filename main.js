@@ -494,8 +494,7 @@ function updateHUD() {
   cameraInfo.textContent =
     `(${camera.position[0].toFixed(2)}, ` +
     `${camera.position[1].toFixed(2)}, ` +
-    `${camera.position[2].toFixed(2)})` +
-    (isOrbiting ? " [Orbiting]" : "");
+    `${camera.position[2].toFixed(2)})`;
 
   fovInfo.textContent = `${projectionState.fov.toFixed(1)}°`;
 
